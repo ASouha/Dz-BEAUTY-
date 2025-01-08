@@ -1,0 +1,86 @@
+{
+    "explore_categories": "Explorez nos catégories",
+    "categories_description": "Des essentiels de soins de la peau et des collections de maquillage vibrantes aux luxueux soins capillaires, soins du corps, ongles et coiffures. Trouvez tout ce dont vous avez besoin pour rehausser votre routine beauté chez DZ_BEAUTY.",
+    "cheveux": "Cheveux",
+    "nails": "Ongles",
+    "makeup": "Maquillage",
+    "skincare": "Soins de la peau",
+    "haircare": "Soins capillaires",
+    "other": "Autre",
+    "home": "Accueil",
+    "categories": "Catégories",
+    "points": "Points",
+    "offers": "Offres",
+    "signup": "S'inscrire",
+    "login": "Connexion",
+    "home_section": {
+      "hero_title": "Découvrez les meilleurs services de beauté",
+      "hero_description": "Dédié à offrir des expériences de beauté exceptionnelles et personnalisées.",
+      "hero_button_text": "Réservez maintenant"
+    },
+    
+        "services_section": {
+          "title": "Nos Services",
+          "skincare_day": "Journée Soins de la Peau",
+          "haircare_day": "Journée Soins Capillaires",
+          "nails_day": "Journée Soins des Ongles"
+        },
+        "menu": {
+          "home": "Accueil",
+          "categories": "Catégories",
+          "points": "Points",
+          "offers": "Offres"
+        },
+  "promo_section": {
+    "title": "Nous voulons rendre chaque fille jolie, heureuse et aimée !",
+    "description": "Réservez maintenant. Gagnez des points. Brillez avec DZ-BEAUTY.",
+    "discount": "JUSQU'À 50% OFF"
+  },"explore_categories_section": {
+    "title": "Explorez nos catégories",
+    "description": "Des essentiels de soins de la peau et des collections de maquillage vibrantes aux luxueux soins capillaires, soins du corps, ongles et coiffures. Trouvez tout ce dont vous avez besoin pour rehausser votre routine beauté chez DZ_BEAUTY.",
+    "categories": {
+      "hair": "Cheveux",
+      "nails": "Ongles",
+      "makeup": "Maquillage",
+      "skincare": "Soins de la peau",
+      "haircare": "Soins capillaires",
+      "other": "Autres"
+    }
+  },
+  "loading_data": "Chargement des données...",
+  "fidelity_program": "Programme de Fidélité",
+  "fidelity_program_description": "Accumulez des points à chaque prestation et profitez de réductions chez vos prestataires préférés !",
+  "your_discount_offers": "Vos Offres de Réduction",
+  "discount_offers_description": "Profitez de réductions exclusives à partir d'un certain nombre de points !",
+  "discount_10": "{{points}} points : Réduction de 10 %",
+  "discount_30": "{{points}} points : Réduction de 30 %",
+  "discount_50": "{{points}} points : Réduction de 50 %",
+  "earn_points_message": "GAGNEZ 10 POINTS POUR CHAQUE PRESTATION RÉALISÉE !",
+  "your_points": "Vos Points",
+  "your_offers": "Vos Offres",
+  
+  "discount_10_label": "-10%",
+  "discount_30_label": "-30%",
+  "discount_50_label": "-50%",
+  "no_points_available": "Aucun point disponible.",
+  "history": "HISTORIQUE",
+  "provider": "Prestataire",
+  "date": "Date",
+  "amount_paid": "Montant payé",
+  "points_earned": "Points gagnés",
+  "no_history_available": "Aucun historique disponible.",
+  "luxurious_hair_title": "DES CHEVEUX LUXUEUX POUR VOUS",
+  "luxurious_hair_description": "Dédié à offrir des expériences de cheveux exceptionnelles et personnalisées, conçues juste pour vous.",
+  "services_title": "NOS SERVICES",
+  "services_description": "Explorez une gamme complète de services adaptés à vos besoins.",
+    "best_nails_title": "Les Meilleurs Ongles pour les Meilleurs Moments",
+      "match_beauty_title": "Harmonisez Votre Beauté Extérieure avec Votre Beauté Intérieure",
+      "radiant_skin_title": "Une Peau Radieuse, Redéfinie",
+      "healthy_hair_title": "Des Cheveux Sains, Une Brillance Infinie",
+      "other_services_title": "Nous Offrons Aussi d'Autres Services pour votre Satisfaction !"
+
+      
+      
+  }
+  
+  

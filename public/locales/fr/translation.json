@@ -1,0 +1,54 @@
+{
+    "explore_categories": "Explorez nos catégories",
+    "categories_description": "Des essentiels de soins de la peau et des collections de maquillage vibrantes aux luxueux soins capillaires, soins du corps, ongles et coiffures. Trouvez tout ce dont vous avez besoin pour rehausser votre routine beauté chez DZ_BEAUTY.",
+    "cheveux": "Cheveux",
+    "nails": "Ongles",
+    "makeup": "Maquillage",
+    "skincare": "Soins de la peau",
+    "haircare": "Soins capillaires",
+    "other": "Autre",
+    "home": "Accueil",
+    "categories": "Catégories",
+    "points": "Points",
+    "offers": "Offres",
+    "signup": "S'inscrire",
+    "login": "Connexion",
+    "home_section": {
+      "hero_title": "Découvrez les meilleurs services de beauté",
+      "hero_description": "Dédié à offrir des expériences de beauté exceptionnelles et personnalisées.",
+      "hero_button_text": "Réservez maintenant"
+    },
+    
+        "services_section": {
+          "title": "Nos Services",
+          "skincare_day": "Journée Soins de la Peau",
+          "haircare_day": "Journée Soins Capillaires",
+          "nails_day": "Journée Soins des Ongles"
+        },
+        "menu": {
+          "home": "Accueil",
+          "categories": "Catégories",
+          "points": "Points",
+          "offers": "Offres"
+        },
+  "promo_section": {
+    "title": "Nous voulons rendre chaque fille jolie, heureuse et aimée !",
+    "description": "Réservez maintenant. Gagnez des points. Brillez avec DZ-BEAUTY.",
+    "discount": "JUSQU'À 50% OFF"
+  },"explore_categories_section": {
+    "title": "Explorez nos catégories",
+    "description": "Des essentiels de soins de la peau et des collections de maquillage vibrantes aux luxueux soins capillaires, soins du corps, ongles et coiffures. Trouvez tout ce dont vous avez besoin pour rehausser votre routine beauté chez DZ_BEAUTY.",
+    "categories": {
+      "hair": "Cheveux",
+      "nails": "Ongles",
+      "makeup": "Maquillage",
+      "skincare": "Soins de la peau",
+      "haircare": "Soins capillaires",
+      "other": "Autres"
+    }
+  }
+      
+      
+  }
+  
+  

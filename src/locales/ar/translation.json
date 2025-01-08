@@ -1,0 +1,87 @@
+{
+    "explore_categories": "استكشف فئاتنا",
+    "categories_description": "من الأساسيات للعناية بالبشرة و مجموعات المكياج المتألقة إلى العناية الفاخرة بالشعر والجسم والأظافر والتسريحات. تجد كل ما تحتاجه لتعزيز روتين جمالك في DZ_BEAUTY.",
+    "cheveux": "شعر",
+    "nails": "أظافر",
+    "makeup": "ماكياج",
+    "skincare": "العناية بالبشرة",
+    "haircare": "العناية بالشعر",
+    "other": "أخرى",
+    "home": "الصفحة الرئيسية",
+  "categories": "الفئات",
+  "points": "النقاط",
+  "offers": "العروض",
+  "signup": "التسجيل",
+  "login": "تسجيل الدخول",
+  
+    "home_section": {
+      "hero_title": "اكتشف أفضل خدمات التجميل",
+      "hero_description": "مخصص لتقديم تجارب تجميل استثنائية وشخصية.",
+      "hero_button_text": "احجز الآن"
+    },
+    
+        "services_section": {
+          "title": "خدماتنا",
+          "skincare_day": "يوم العناية بالبشرة",
+          "haircare_day": "يوم العناية بالشعر",
+          "nails_day": "يوم العناية بالأظافر"
+        },
+        "menu": {
+          "home": "الرئيسية",
+          "categories": "الفئات",
+          "points": "النقاط",
+          "offers": "العروض"
+        },
+        "language_switcher": "تغيير اللغة",
+        
+  "promo_section": {
+    "title": "نريد أن نجعل كل فتاة جميلة وسعيدة ومحبوبة!",
+    "description": "احجز الآن. اكسب النقاط. تألق مع DZ-BEAUTY.",
+    "discount": "حتى 50% خصم"
+  },
+  "explore_categories_section": {
+    "title": "استكشف فئاتنا",
+    "description": "من أساسيات العناية بالبشرة والمجموعات الملونة للمكياج إلى العناية الفاخرة بالشعر والجسم والأظافر والتسريحات. تجد كل ما تحتاجه لتحسين روتينك الجمالي في DZ_BEAUTY.",
+    "categories": {
+      "hair": "الشعر",
+      "nails": "الأظافر",
+      "makeup": "المكياج",
+      "skincare": "العناية بالبشرة",
+      "haircare": "العناية بالشعر",
+      "other": "أخرى"
+    }
+  },
+  "loading_data": "جاري تحميل البيانات...",
+  "fidelity_program": "برنامج الولاء",
+  "fidelity_program_description": "اجمع النقاط مع كل خدمة واحصل على تخفيضات لدى مقدمي الخدمات المفضلين لديك!",
+  "your_discount_offers": "عروضك الترويجية",
+  "discount_offers_description": "استفد من تخفيضات حصرية عند جمع عدد معين من النقاط!",
+  "discount_10": "{{points}} نقطة: تخفيض بنسبة 10٪",
+  "discount_30": "{{points}} نقطة: تخفيض بنسبة 30٪",
+  "discount_50": "{{points}} نقطة: تخفيض بنسبة 50٪",
+  "earn_points_message": "اكسب 10 نقاط عن كل خدمة مقدمة!",
+  "your_points": "نقاطك",
+  "your_offers": "عروضك",
+  
+  "discount_10_label": "-10٪",
+  "discount_30_label": "-30٪",
+  "discount_50_label": "-50٪",
+  "no_points_available": "لا توجد نقاط متوفرة.",
+  "history": "السجل",
+  "provider": "المزود",
+  "date": "التاريخ",
+  "amount_paid": "المبلغ المدفوع",
+  "points_earned": "النقاط المكتسبة",
+  "no_history_available": "لا يوجد سجل متوفر.",
+  "luxurious_hair_title": "شَعْر فَاخِر لَكَ",
+  "luxurious_hair_description": "مُكَرَّس لتقديم تجارب شَعْر استثنائية ومُخَصَّصة، صُمِّمَت خصيصًا لك.",
+  "services_title": "خَدَمَاتُنَا",
+  "services_description": "اِسْتَكْشِف مجموعة شاملة من الخَدَمَات التي تلبي احتياجاتك.",
+    "best_nails_title": "أفضل الأظافر لأجمل اللحظات",
+    "match_beauty_title": "اجعل جمالك الخارجي يعكس جمالك الداخلي",
+    "radiant_skin_title": "بشرة متألقة، معاد تعريفها",
+    "healthy_hair_title": "شعر صحي، لمعان لا نهائي",
+    "other_services_title": "نقدّم أيضًا خدمات أخرى من أجل رضاكم!"
+  
+  }
+  

@@ -7,14 +7,14 @@ import skincare from '../assets/images/skincare.png';
 import ServiceGrid from '../components/ServiceGrid';
 
 const HairService = () => {
-  const { t } = useTranslation(); // Hook pour accéder aux traductions
+  const { t } = useTranslation(); 
 
   return (
     <>
       <Navbar />
       <Hero
         image={skincare}
-        title={t("radiant_skin_title")} // Utilisation des clés de traduction
+        title={t("radiant_skin_title")} 
         description={t("luxurious_hair_description")}
         showButton={false}
       />

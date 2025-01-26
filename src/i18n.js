@@ -8,16 +8,16 @@ i18n
   .init({
     resources: {
       fr: {
-        translation: fr, // English translations
+        translation: fr, 
       },
       ar: {
-        translation: ar, // Arabic translations
+        translation: ar, 
       },
     },
-    lng: 'fr', // Default language (set to 'en' for English)
-    fallbackLng: 'fr', // If translations are not available in the current language, use English
+    lng: 'fr', 
+    fallbackLng: 'fr', 
     interpolation: {
-      escapeValue: false, // React already does escaping
+      escapeValue: false, 
     },
   });
 

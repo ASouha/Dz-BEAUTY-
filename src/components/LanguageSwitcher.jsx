@@ -6,7 +6,7 @@ const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
-    console.log(`Changement de langue : ${lng}`); // Affiche la langue sélectionnée
+    console.log(`Changement de langue : ${lng}`);
     i18n.changeLanguage(lng);
   };
   

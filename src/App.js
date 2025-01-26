@@ -7,7 +7,7 @@ import MakeupService from './pages/MakeupService';
 import SkincareService from './pages/SkincareService';
 import HaircareService from './pages/HaircareService';
 import Other from './pages/Other';
-import './i18n'; // Importer le fichier de configuration i18next
+import './i18n'; 
 import FidelityProgram from './pages/FidelityProgram';
 
 
@@ -16,16 +16,16 @@ function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />} /> {/* Route pour la page d'accueil */}
-      <Route path="/HairService" element={<HairService />} /> {/* Route pour la deuxième page */}
-      <Route path="/NailsService" element={<NailsService />} /> {/* Route pour la deuxième page */}
-      <Route path="/MakeupService" element={<MakeupService />} /> {/* Route pour la deuxième page */}
-      <Route path="/SkincareService" element={<SkincareService />} /> {/* Route pour la deuxième page */}
-      <Route path="/HaircareService" element={<HaircareService />} /> {/* Route pour la deuxième page */}
-      <Route path="/Other" element={<Other />} /> {/* Route pour la deuxième page */}
+      <Route path="/" element={<Home />} /> 
+      <Route path="/HairService" element={<HairService />} /> 
+      <Route path="/NailsService" element={<NailsService />} /> 
+      <Route path="/MakeupService" element={<MakeupService />} /> 
+      <Route path="/SkincareService" element={<SkincareService />} /> 
+      <Route path="/HaircareService" element={<HaircareService />} /> 
+      <Route path="/Other" element={<Other />} /> 
 
       
-      <Route path="/FidelityProgram" element={<FidelityProgram />} /> {/* Route pour la deuxième page */}
+      <Route path="/FidelityProgram" element={<FidelityProgram />} /> 
       
     </Routes>
   </BrowserRouter>

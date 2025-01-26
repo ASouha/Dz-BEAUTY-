@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next'; // Import du hook pour les traductions
+import { useTranslation } from 'react-i18next';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import logo from "../assets/images/LOGO-DZ-BEAUTY.png";
@@ -7,14 +7,14 @@ import nails from '../assets/images/nails.JPG';
 import ServiceGrid from '../components/ServiceGrid';
 
 const NailsService = () => {
-  const { t } = useTranslation(); // Hook pour accéder aux traductions
+  const { t } = useTranslation(); 
 
   return (
     <>
       <Navbar />
       <Hero
         image={nails}
-        title={t("best_nails_title")} // Utilisation des clés de traduction
+        title={t("best_nails_title")}
         description={t("luxurious_hair_description")}
         showButton={false}
       />

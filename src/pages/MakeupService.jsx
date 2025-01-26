@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next'; // Import du hook pour les traductions
+import { useTranslation } from 'react-i18next'; 
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import logo from "../assets/images/LOGO-DZ-BEAUTY.png";
@@ -7,14 +7,14 @@ import makeup from '../assets/images/makeup.png';
 import ServiceGrid from '../components/ServiceGrid';
 
 const HairService = () => {
-  const { t } = useTranslation(); // Hook pour accéder aux traductions
+  const { t } = useTranslation(); 
 
   return (
     <>
       <Navbar />
       <Hero
         image={makeup}
-        title={t("match_beauty_title")} // Utilisation des clés de traduction
+        title={t("match_beauty_title")} 
         description={t("luxurious_hair_description")}
         showButton={false}
       />

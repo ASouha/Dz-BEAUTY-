@@ -4,14 +4,14 @@ import coiff2 from "../assets/images/coiff2.jpg";
 const services = [
   {
     id: 1,
-    image: coiff1, // Remplace par une vraie image
+    image: coiff1, 
     title: "SKINCARE DAY",
     date: "Mai 5",
     time: "10:00 - 16:00",
     description:
       "Découvrez nos soins de peau exceptionnels pour une journée relaxante et revigorante.",
   },
-  // Ajoute d'autres objets pour les services
+ 
   {
     id: 2,
     image: coiff2,
@@ -20,7 +20,7 @@ const services = [
     time: "11:00 - 15:00",
     description: "Des soins haut de gamme pour votre bien-être.",
   },
-  // Ajoutez plus si nécessaire
+  
 ];
 
 const ServiceGrid = () => {

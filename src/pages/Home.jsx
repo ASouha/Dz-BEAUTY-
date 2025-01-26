@@ -1,7 +1,7 @@
-// src/pages/Home.jsx
+
 import React from 'react';
 import { Link } from 'react-router-dom';
- // Assurez-vous que le chemin est correct en fonction de la structure de votre projet
+
  import '../i18n';
 import { useTranslation } from "react-i18next";
 import Navbar from "../components/Navbar";
@@ -19,10 +19,10 @@ const Home = () => {
       <Navbar />
       <Hero
         image={photo_landingPage}
-        title={t("home_section.hero_title")} // Traduction pour le titre
-        description={t("home_section.hero_description")} // Traduction pour la description
+        title={t("home_section.hero_title")} 
+        description={t("home_section.hero_description")} 
         showButton={true}
-        buttonText={t("home_section.hero_button_text")} // Traduction pour le texte du bouton
+        buttonText={t("home_section.hero_button_text")} 
         buttonLink="/reservation"
       />
       <Features />

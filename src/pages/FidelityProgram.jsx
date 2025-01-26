@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 function FidelityProgram() {
   const { t } = useTranslation();
 
-  // Données fictives pour tester l'affichage
+  
   const mockPointsData = [
     { name: "Sarah (Coiffure)", points: 120 },
     { name: "Lila (Massage)", points: 210 },
@@ -22,12 +22,12 @@ function FidelityProgram() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Simule le chargement des données fictives
+    
     setTimeout(() => {
       setPointsData(mockPointsData);
       setHistoryData(mockHistoryData);
       setLoading(false);
-    }, 1000); // Délai simulé de 1 seconde
+    }, 1000); 
   }, []);
 
   const getButtonStyle = (points, threshold) => {

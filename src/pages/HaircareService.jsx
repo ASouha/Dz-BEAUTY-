@@ -1,20 +1,41 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next'; // Import du hook pour les traductions
+import { useTranslation } from 'react-i18next'; 
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import logo from "../assets/images/LOGO-DZ-BEAUTY.png";
 import cheuvcare from '../assets/images/cheuvcare.png';
-import ServiceGrid from '../components/ServiceGrid';
+import coiff1 from "../assets/images/coiff1.jpg";
+import coiff2 from '../assets/images/coiff2.jpg';
+
+
+const myServices = [
+  {
+    id: 1,
+    image: coiff1,
+    title: "SKINCARE DAY",
+    date: "Mai 5",
+    time: "10:00 - 16:00",
+    description: "Découvrez nos soins de peau exceptionnels pour une journée relaxante et revigorante.",
+  },
+  {
+    id: 2,
+    image: coiff2,
+    title: "SKINCARE DAY",
+    date: "Mai 6",
+    time: "11:00 - 15:00",
+    description: "Des soins haut de gamme pour votre bien-être.",
+  },
+];
 
 const HaircareService = () => {
-  const { t } = useTranslation(); // Hook pour accéder aux traductions
+  const { t } = useTranslation(); 
 
   return (
     <>
       <Navbar />
       <Hero
         image={cheuvcare}
-        title={t("healthy_hair_title")} // Utilisation des clés de traduction
+        title={t("healthy_hair_title")} 
         description={t("luxurious_hair_description")}
         showButton={false}
       />
@@ -27,7 +48,33 @@ const HaircareService = () => {
         />
         <span className="w-64 h-1 bg-[#614545]"></span>
       </div>
-      <ServiceGrid />
+
+     
+      <section className="py-8 bg-gray-100">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {myServices.map((service) => (
+              <div
+                key={service.id}
+                className="bg-white rounded-lg shadow-lg overflow-hidden"
+              >
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="text-lg font-bold mb-2">{service.title}</h3>
+                  <p className="text-gray-600 text-sm mb-2">
+                    {service.date} | {service.time}
+                  </p>
+                  <p className="text-gray-700">{service.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 };
